@@ -1,0 +1,53 @@
+/* add your CSS here */
+.outer {
+	width: 310px;
+	border: 1px solid #CECECE;
+	padding: 10px;
+	margin-top: 15px;
+	margin-left: 5px;
+	box-shadow: 6px 6px 2px 2px #E6E6E6;
+}
+
+.inner {
+	border: 1px solid #CECECE;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 10px;
+}
+
+.facts {
+	/* italicized text for the animal's interesting fact */
+	font-style: italic;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+	/* fix image width of 300 pixels */
+	border: 1px solid #CECECE;
+	width: 300px;
+	margin-bottom: 15px;
+}
+
+/*
+body {
+	font-family: 'Open Sans', Helvetica, Arial, Geneva, sans-serif;
+}
+*/
+
+ul {
+	/* no dots for the animal's list items */
+	list-style: none;
+	/* No indentation for the list items */
+	padding-left: 0;
+}
+
+li span {
+	/* bold labels for the animal's list items */
+	font-weight: bold;
+}
